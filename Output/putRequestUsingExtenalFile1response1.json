@@ -1,0 +1,36 @@
+{
+  "Id": "1028",
+  "frst_name": "alton",
+  "last_name": "hilll",
+  "email": "abc12@gmail.com",
+  "Mobile": "phone1028",
+  "marks": [
+    {
+      "telugu": 90,
+      "english": 60,
+      "maths": 99,
+      "scinence": 70,
+      "social": 94,
+      "hindi": 67
+    },
+    {
+      "E.D": 75,
+      "K.O.M": 90,
+      "TE1": 65
+    }
+  ],
+  "subjects": [
+    "S.O.M",
+    "fluid mechanics",
+    "engineering mechanics"
+  ],
+  "favfood": {
+    "breakfast": "idly",
+    "lunch": "rice",
+    "dinner": [
+      "chapathi",
+      "milk"
+    ]
+  },
+  "id": 2
+}

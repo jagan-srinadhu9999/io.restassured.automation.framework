@@ -1,0 +1,5380 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jan 5, 2024 12:31:37 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">getEmployee1</p>
+            <p class="text-sm">
+              <span>12:31:38 am</span> / <span>00:00:03:095</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">getEmployee1</h5>
+<span class='badge badge-success'>01.05.2024 12:31:38 am</span>
+<span class='badge badge-danger'>01.05.2024 12:31:41 am</span>
+<span class='badge badge-default'>00:00:03:095</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:31:41 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-0'></div>
+ <script>
+  function jsonTreeCreate0() { 
+   document.getElementById('code-block-json-0').innerHTML = JSONTree.create({
+    "id": 1,
+    "first_Name": "srinadhu",
+    "last_Nmae": "jagan",
+    "job": "QA Manual tester",
+    "email": "jagansrinadhu8@gmail.com",
+    "mobile": 6302521574,
+    "author": "typicode"
+}); 
+  }
+  jsonTreeCreate0();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:31:41 am</td>
+        <td>
+          java.lang.AssertionError: 
+expected: 201
+ but was: 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">getEmployee1</p>
+            <p class="text-sm">
+              <span>12:31:41 am</span> / <span>00:00:00:098</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">getEmployee1</h5>
+<span class='badge badge-success'>01.05.2024 12:31:41 am</span>
+<span class='badge badge-danger'>01.05.2024 12:31:41 am</span>
+<span class='badge badge-default'>00:00:00:098</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:31:41 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-1'></div>
+ <script>
+  function jsonTreeCreate1() { 
+   document.getElementById('code-block-json-1').innerHTML = JSONTree.create({
+    "id": 3,
+    "first_Name": "brock",
+    "last_Nmae": "lesnar",
+    "job": "MMA_Fighter",
+    "email": "jbrockles2@gmail.com",
+    "mobile": 1234467889,
+    "author": "typicode"
+}); 
+  }
+  jsonTreeCreate1();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:31:41 am</td>
+        <td>
+          java.lang.AssertionError: 
+expected: 201
+ but was: 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">getEmployee1</p>
+            <p class="text-sm">
+              <span>12:31:41 am</span> / <span>00:00:00:082</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">getEmployee1</h5>
+<span class='badge badge-success'>01.05.2024 12:31:41 am</span>
+<span class='badge badge-danger'>01.05.2024 12:31:41 am</span>
+<span class='badge badge-default'>00:00:00:082</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:31:41 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-2'></div>
+ <script>
+  function jsonTreeCreate2() { 
+   document.getElementById('code-block-json-2').innerHTML = JSONTree.create({
+    "id": 10,
+    "first_Name": "sachin",
+    "last_Nmae": "tendulkar",
+    "job": "cricket god",
+    "email": "sachin10@gmail.com",
+    "mobile": 1234567890,
+    "author": "BCCI"
+}); 
+  }
+  jsonTreeCreate2();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:31:41 am</td>
+        <td>
+          java.lang.AssertionError: 
+expected: 201
+ but was: 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">getEmployee1</p>
+            <p class="text-sm">
+              <span>12:31:41 am</span> / <span>00:00:00:067</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">getEmployee1</h5>
+<span class='badge badge-success'>01.05.2024 12:31:41 am</span>
+<span class='badge badge-danger'>01.05.2024 12:31:41 am</span>
+<span class='badge badge-default'>00:00:00:067</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:31:41 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-3'></div>
+ <script>
+  function jsonTreeCreate3() { 
+   document.getElementById('code-block-json-3').innerHTML = JSONTree.create({
+    "id": 4,
+    "first_Name": "pawan",
+    "last_Nmae": "kalyan",
+    "job": "superstar",
+    "email": "powerstar8@gmail.com",
+    "mobile": 8985894130,
+    "author": "typicode"
+}); 
+  }
+  jsonTreeCreate3();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:31:41 am</td>
+        <td>
+          java.lang.AssertionError: 
+expected: 201
+ but was: 200
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">getEmployees</p>
+            <p class="text-sm">
+              <span>12:31:41 am</span> / <span>00:00:00:334</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">getEmployees</h5>
+<span class='badge badge-success'>01.05.2024 12:31:41 am</span>
+<span class='badge badge-danger'>01.05.2024 12:31:41 am</span>
+<span class='badge badge-default'>00:00:00:334</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:31:41 am</td>
+        <td>
+          test-passed
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:31:41 am</td>
+        <td>
+           <div class='json-tree' id='code-block-json-4'></div>
+ <script>
+  function jsonTreeCreate4() { 
+   document.getElementById('code-block-json-4').innerHTML = JSONTree.create([
+    {
+        "id": 1,
+        "first_Name": "srinadhu",
+        "last_Nmae": "jagan",
+        "job": "QA Manual tester",
+        "email": "jagansrinadhu8@gmail.com",
+        "mobile": 6302521574,
+        "author": "typicode"
+    },
+    {
+        "Id": "1028",
+        "frst_name": "alton",
+        "last_name": "hilll",
+        "email": "abc12@gmail.com",
+        "Mobile": "phone1028",
+        "marks": [
+            {
+                "telugu": 90,
+                "english": 60,
+                "maths": 99,
+                "scinence": 70,
+                "social": 94,
+                "hindi": 67
+            },
+            {
+                "E.D": 75,
+                "K.O.M": 90,
+                "TE1": 65
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "id": 2
+    },
+    {
+        "id": 3,
+        "first_Name": "brock",
+        "last_Nmae": "lesnar",
+        "job": "MMA_Fighter",
+        "email": "jbrockles2@gmail.com",
+        "mobile": 1234467889,
+        "author": "typicode"
+    },
+    {
+        "id": 4,
+        "first_Name": "pawan",
+        "last_Nmae": "kalyan",
+        "job": "superstar",
+        "email": "powerstar8@gmail.com",
+        "mobile": 8985894130,
+        "author": "typicode"
+    },
+    {
+        "id": 10,
+        "first_Name": "sachin",
+        "last_Nmae": "tendulkar",
+        "job": "cricket god",
+        "email": "sachin10@gmail.com",
+        "mobile": 1234567890,
+        "author": "BCCI"
+    },
+    {
+        "id": 665,
+        "first_Name": "Maya",
+        "last_Nmae": "Schiller",
+        "job": "superstar",
+        "email": "powerstar8@gmail.com",
+        "mobile": 8985894131,
+        "author": "typicode"
+    },
+    {
+        "id": 61,
+        "first_Name": "Adella",
+        "last_Nmae": "Goodwin",
+        "job": "superstar",
+        "email": "powerstar8@gmail.com",
+        "mobile": 8985894132,
+        "author": "typicode"
+    },
+    {
+        "id": 614,
+        "first_Name": "Jimmy",
+        "last_Nmae": "Ratke",
+        "job": "wrestler",
+        "email": "jhon234@gmail.com",
+        "mobile": 7834666789,
+        "author": "typicode"
+    },
+    {
+        "id": 423,
+        "first_Name": "Seamus",
+        "last_Nmae": "Bartoletti",
+        "job": "wrestler",
+        "email": "Dameon.Cronin@yahoo.com",
+        "mobile": 7834666788,
+        "author": "typicode"
+    },
+    {
+        "id": 134,
+        "first_Name": "Roslyn",
+        "last_Nmae": "Cartwright",
+        "job": "National Marketing Representative",
+        "email": "Glennie79@yahoo.com",
+        "mobile": 7834666787,
+        "author": "typicode"
+    },
+    {
+        "id": 248,
+        "first_Name": "Estell",
+        "last_Nmae": "Weber",
+        "job": "Corporate Response Specialist",
+        "email": "Taylor35@gmail.com",
+        "mobile": 1234567890,
+        "author": "typicode"
+    },
+    {
+        "phonenumber": "8985894130",
+        "email": "naidusrinadh09@gmail.com",
+        "id": 338
+    },
+    {
+        "id": 612,
+        "first_Name": "Daron",
+        "last_Nmae": "Kuphal",
+        "job": "superstar",
+        "email": "powerstar8@gmail.com",
+        "mobile": 8985894130,
+        "author": "typicode"
+    },
+    {
+        "id": 902,
+        "first_Name": "Adeline",
+        "last_Nmae": "Terry",
+        "job": "superstar",
+        "email": "powerstar8@gmail.com",
+        "mobile": 8985894130,
+        "author": "typicode"
+    },
+    {
+        "id": 11,
+        "first_Name": "Hardy",
+        "last_Nmae": "Streich",
+        "job": "Lead Usability Strategist",
+        "email": "powerstar8@gmail.com",
+        "mobile": 8985894130,
+        "author": "typicode"
+    },
+    {
+        "id": 805,
+        "first_Name": "Naomi",
+        "last_Nmae": "Heathcote",
+        "job": "Chief Program Coordinator",
+        "email": "powerstar8@gmail.com",
+        "mobile": 8985894130,
+        "author": "typicode"
+    },
+    {
+        "id": 898,
+        "first_Name": "Hassan",
+        "last_Nmae": "Boyer",
+        "job": "International Tactics Manager",
+        "email": "powerstar8@gmail.com",
+        "mobile": 8985894130,
+        "author": "typicode"
+    },
+    {
+        "id": 420,
+        "first_Name": "Pinkie",
+        "last_Nmae": "Zulauf",
+        "job": "superstar",
+        "email": "powerstar8@gmail.com",
+        "mobile": 8985894130,
+        "author": "typicode"
+    },
+    {
+        "id": 493,
+        "first_Name": "Nelda",
+        "last_Nmae": "Conn",
+        "job": "superstar",
+        "email": "powerstar8@gmail.com",
+        "mobile": 8985894130,
+        "author": "typicode"
+    },
+    {
+        "id": 978,
+        "first_Name": "Hollie",
+        "last_Nmae": "Reichel",
+        "job": "superstar",
+        "email": "powerstar8@gmail.com",
+        "mobile": 8985894130,
+        "author": "typicode"
+    },
+    {
+        "id": 103,
+        "first_Name": "Fredrick",
+        "last_Nmae": "Bergstrom",
+        "job": "superstar",
+        "email": "Ralph_Kulas97@gmail.com",
+        "mobile": 8985894130,
+        "author": "typicode"
+    },
+    {
+        "id": 353,
+        "first_Name": "Eudora",
+        "last_Nmae": "Grimes",
+        "job": "superstar",
+        "email": "powerstar8@gmail.com",
+        "mobile": 8985894130,
+        "author": "typicode"
+    },
+    {
+        "id": 851,
+        "first_Name": "Stella",
+        "last_Nmae": "Rau",
+        "job": "superstar",
+        "email": "powerstar8@gmail.com",
+        "mobile": 8985894130,
+        "author": "typicode"
+    },
+    {
+        "id": 951,
+        "first_Name": "Harmony",
+        "last_Nmae": "Volkman",
+        "job": "superstar",
+        "email": "Sandrine67@example.org",
+        "mobile": 8985894130,
+        "author": "typicode"
+    },
+    {
+        "id": 241,
+        "first_Name": "Chadd",
+        "last_Nmae": "Hammes",
+        "job": "Lead Division Consultant",
+        "email": "Elvera26@example.com",
+        "mobile": 8985894130,
+        "author": "typicode"
+    },
+    {
+        "id": 36,
+        "first_Name": "Jalyn",
+        "last_Nmae": "Stracke",
+        "job": "Forward Operations Officer",
+        "email": "Harry.Batz78@example.net",
+        "mobile": 8985894130,
+        "author": "typicode"
+    },
+    {
+        "id": 937,
+        "first_Name": "Antwan",
+        "last_Nmae": "Stehr",
+        "job": "Forward Web Analyst",
+        "email": "Jude.Hahn26@example.net",
+        "mobile": 8985894130,
+        "author": "typicode"
+    },
+    {
+        "id": 123,
+        "first_Name": "Rickie",
+        "last_Nmae": "Volkman",
+        "job": "Lead Operations Consultant",
+        "email": "Watson.Turcotte77@example.org",
+        "mobile": 8985894130,
+        "author": "typicode"
+    },
+    {
+        "id": 294,
+        "first_Name": "Elsa",
+        "last_Nmae": "Raynor",
+        "job": "Internal Assurance Designer",
+        "email": "Amelia37@example.org",
+        "mobile": 8985894130,
+        "author": "typicode"
+    },
+    {
+        "id": 676,
+        "first_Name": "Natalie",
+        "last_Nmae": "Bosco",
+        "job": "Senior Tactics Director",
+        "email": "Randal.Macejkovic9@example.net",
+        "mobile": 8985894130,
+        "author": "typicode"
+    },
+    {
+        "id": 621,
+        "first_Name": "Lydia",
+        "last_Nmae": "Corkery",
+        "job": "Direct Usability Liaison",
+        "email": "Lois70@example.net",
+        "mobile": 8985894130,
+        "author": "typicode"
+    },
+    {
+        "0": {
+            "id": "798",
+            "first_Name": "Thaddeus",
+            "last_Nmae": "Swaniawski",
+            "job": "Direct Intranet Producer",
+            "email": "Andrew_Gislason@example.com",
+            "mobile": 8985894130,
+            "author": "typicode"
+        },
+        "id": 798
+    },
+    {
+        "id": 979
+    },
+    {
+        "id": 8,
+        "first_Name": "srinadhu",
+        "last_Nmae": "kondappa",
+        "job": "QA Manual tester",
+        "email": "jagansrinadhu8@gmail.com",
+        "mobile": 6302521574,
+        "author": "typicode"
+    },
+    {
+        "id": 89,
+        "first_Name": "srinadhu",
+        "last_Nmae": "kondappa",
+        "job": "QA Manual tester",
+        "email": "jagansrinadhu8@gmail.com",
+        "mobile": 6302521574,
+        "author": "typicode"
+    },
+    {
+        "id": 90,
+        "first_Name": "srinadhu",
+        "last_Nmae": "kondappa",
+        "job": "QA Manual tester",
+        "email": "jagansrinadhu8@gmail.com",
+        "mobile": 6302521574,
+        "author": "typicode"
+    },
+    {
+        "id": 100,
+        "first_Name": "srinadhu",
+        "last_Nmae": "kondappa",
+        "job": "QA Manual tester",
+        "email": "jagansrinadhu8@gmail.com",
+        "mobile": 6302521574,
+        "author": "typicode"
+    },
+    {
+        "id": 374,
+        "first_Name": "srinadhu",
+        "last_Nmae": "kondappa",
+        "job": "QA Manual tester",
+        "email": "jagansrinadhu8@gmail.com",
+        "mobile": 6302521574,
+        "author": "typicode"
+    },
+    {
+        "id": 357,
+        "first_Name": "srinadhu",
+        "last_Nmae": "kondappa",
+        "job": "QA Manual tester",
+        "email": "jagansrinadhu8@gmail.com",
+        "mobile": 6302521574,
+        "author": "typicode"
+    },
+    {
+        "id": 872,
+        "first_Name": "Christia",
+        "last_Nmae": "Price",
+        "Community-Services": "QA Manual tester",
+        "email": "jagansrinadhu8@gmail.com",
+        "mobile": 6302521574,
+        "author": "typicode"
+    },
+    {
+        "id": 648,
+        "first_Name": "Sierra",
+        "last_Nmae": "Goldner",
+        "work": "Advertising",
+        "email": "jagansrinadhu8@gmail.com",
+        "mobile": 6302521574,
+        "author": "typicode"
+    },
+    {
+        "id": 719,
+        "first_Name": "Omega",
+        "last_Nmae": "Deckow",
+        "work": "Administration",
+        "email": "jagansrinadhu8@gmail.com",
+        "1-151-382-2810": 6302521574,
+        "author": "typicode"
+    },
+    {
+        "id": 658,
+        "first_Name": "Guillermo",
+        "last_Nmae": "Kerluke",
+        "work": "Manufacturing",
+        "email": "jagansrinadhu8@gmail.com",
+        "mobile": "(189) 573-4012",
+        "author": "typicode"
+    },
+    {
+        "first_Name": "Shakia",
+        "favFoods": {
+            "lunch": "rice",
+            "breakfast": "idly",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "work": "Engineer",
+        "author": "typicode",
+        "jobs": [
+            "tester",
+            "trainer"
+        ],
+        "mobile": "1-442-792-4894",
+        "id": 5177,
+        "last_Name": "Cartwright",
+        "email": "jagansrinadhu8@gmail.com"
+    },
+    {
+        "id": 8934,
+        "first_Name": "Leland",
+        "last_Name": "Kuhic",
+        "work": "Analyst",
+        "email": "jagansrinadhu8@gmail.com",
+        "mobile": "482-394-6324",
+        "author": "typicode",
+        "jobs": [
+            "tester",
+            "trainer"
+        ],
+        "favFoods": {
+            "lunch": "rice",
+            "breakfast": "idly",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        }
+    },
+    {
+        "id": 8575,
+        "first_Name": "Frances",
+        "last_Name": "Glover",
+        "work": "Officer",
+        "email": "sjm@gmail.com",
+        "mobile": "(919) 854-2241",
+        "author": "typicode",
+        "jobs": [
+            "tester",
+            "trainer"
+        ],
+        "favFoods": {
+            "lunch": "rice",
+            "breakfast": "idly",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        }
+    },
+    {
+        "empty": false,
+        "mapType": "java.util.HashMap",
+        "id": 8935
+    },
+    {
+        "first_Name": "Modesto",
+        "favFoods": {
+            "lunch": "rice",
+            "breakfast": "idly",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "work": "Strategist",
+        "author": "typicode",
+        "jobs": [
+            "tester",
+            "trainer"
+        ],
+        "mobile": "1-110-401-2437",
+        "id": 9658,
+        "last_Name": "Satterfield",
+        "email": "jagansrinadhu8@gmail.com"
+    },
+    {
+        "first_Name": "Ola",
+        "favFoods": {
+            "lunch": "rice",
+            "breakfast": "idly",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "work": "Engineer",
+        "author": "typicode",
+        "jobs": [
+            "tester",
+            "trainer"
+        ],
+        "mobile": "1-811-302-6952",
+        "id": 3282,
+        "last_Name": "Stoltenberg",
+        "email": "sjm@gmail.com"
+    },
+    {
+        "first_Name": "Tyrell",
+        "favFoods": {
+            "lunch": "rice",
+            "breakfast": "idly",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "work": "Analyst",
+        "author": "typicode",
+        "jobs": [
+            "tester",
+            "trainer"
+        ],
+        "mobile": "(332) 606-7360",
+        "id": 3778,
+        "last_Name": "Hauck",
+        "email": "sjm@gmail.com"
+    },
+    {
+        "first_Name": "Guy",
+        "favFoods": {
+            "lunch": "rice",
+            "breakfast": "idly",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "work": "Strategist",
+        "author": "typicode",
+        "jobs": [
+            "tester",
+            "trainer"
+        ],
+        "mobile": "1-287-098-9453",
+        "id": 4320,
+        "last_Name": "Hodkiewicz",
+        "email": "sjm@gmail.com"
+    },
+    {
+        "Id": 9,
+        "fname": "joe",
+        "lname": "root",
+        "email": "abc12@gmail.com",
+        "Mobile": 1234567899,
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "id": 9659
+    },
+    {
+        "Id": 218,
+        "frst_name": "Chloe",
+        "last_name": "King",
+        "email": "abc12@gmail.com",
+        "Mobile": "phonenumber",
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "id": 9660
+    },
+    {
+        "id": "772",
+        "frst_name": "Alejandrina",
+        "last_name": "Stehr",
+        "email": "abc12@gmail.com",
+        "mobile": "1-095-163-2471",
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "food": [
+                "chapathi",
+                "milk"
+            ]
+        }
+    },
+    {
+        "id": "129",
+        "frst_name": "Nicholas",
+        "last_name": "O'Conner",
+        "email": "abc12@gmail.com",
+        "mobile": "937-583-9209",
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "food": [
+                "chapathi",
+                "milk"
+            ]
+        }
+    },
+    {
+        "empty": false,
+        "mapType": "java.util.HashMap",
+        "id": 9661
+    },
+    {
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "mobile": "839-302-7135",
+        "last_name": "Fritsch",
+        "favfood": {
+            "lunch": "rice",
+            "breakfast": "idly",
+            "food": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "frst_name": "Lorenzo",
+        "id": "7591",
+        "email": "abc12@gmail.com"
+    },
+    {
+        "id": 854,
+        "fname": "srinadhu",
+        "lname": "kondappa",
+        "email": "srikondappa9999@gmail.com",
+        "mobile": "6302521574",
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ]
+    },
+    {
+        "id": 615,
+        "fname": "srinadhu",
+        "lname": "kondappa",
+        "email": "srikondappa9999@gmail.com",
+        "mobile": "906.283.2393",
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ]
+    },
+    {
+        "id": 530,
+        "fname": "srinadhu",
+        "lname": "kondappa",
+        "email": "srikondappa9999@gmail.com",
+        "mobile": "1-776-626-1513",
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "english": 60,
+                "maths": 99,
+                "science": 70,
+                "social": 94,
+                "hindi": 67,
+                "telugu": 90
+            }
+        ]
+    },
+    {
+        "id": 335,
+        "fname": "srinadhu",
+        "lname": "kondappa",
+        "email": "srikondappa9999@gmail.com",
+        "mobile": "(394) 519-7558",
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "telugu": 90,
+                "english": 60,
+                "maths": 99,
+                "science": 70,
+                "social": 94,
+                "hindi": 67,
+                "kom": 90,
+                "ed": 70
+            }
+        ]
+    },
+    {
+        "id": 608,
+        "fname": "srinadhu",
+        "lname": "kondappa",
+        "email": "srikondappa9999@gmail.com",
+        "mobile": "048.540.7963",
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "telugu": 90,
+                "english": 60,
+                "maths": 99,
+                "science": 70,
+                "social": 94,
+                "hindi": 67,
+                "ed": 70,
+                "kom": 90
+            },
+            {
+                "telugu": 99,
+                "english": 69,
+                "maths": 92,
+                "science": 73,
+                "social": 72,
+                "hindi": 67,
+                "ed": 70,
+                "kom": 82
+            }
+        ]
+    },
+    {
+        "Id": 9,
+        "frst_name": "fname",
+        "last_name": "lname",
+        "email": "abc12@gmail.com",
+        "Mobile": "phonenumber",
+        "marks": [
+            {
+                "telugu": 90,
+                "english": 60,
+                "maths": 99,
+                "scinence": 70,
+                "social": 94,
+                "hindi": 67
+            },
+            {
+                "E.D": 75,
+                "K.O.M": 90,
+                "TE1": 65
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "id": 9662
+    },
+    {
+        "Id": 337,
+        "frst_name": "srinadhu",
+        "last_name": "kondappa",
+        "email": "abc12@gmail.com",
+        "Mobile": "6302521574",
+        "marks": [
+            {
+                "telugu": 90,
+                "english": 60,
+                "maths": 99,
+                "scinence": 70,
+                "social": 94,
+                "hindi": 67
+            },
+            {
+                "E.D": 75,
+                "K.O.M": 90,
+                "TE1": 65
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "id": 9663
+    },
+    {
+        "Id": 804,
+        "frst_name": "srinadhu",
+        "last_name": "kondappa",
+        "email": "abc12@gmail.com",
+        "Mobile": "6302521574",
+        "marks": [
+            {
+                "telugu": 90,
+                "english": 60,
+                "maths": 99,
+                "scinence": 70,
+                "social": 94,
+                "hindi": 67
+            },
+            {
+                "E.D": 75,
+                "K.O.M": 90,
+                "TE1": 65
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "id": 9664
+    },
+    {
+        "first_Name": "Moshe",
+        "favFoods": {
+            "lunch": "rice",
+            "breakfast": "idly",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "work": "Supervisor",
+        "author": "typicode",
+        "jobs": [
+            "tester",
+            "trainer"
+        ],
+        "mobile": "114.203.9139",
+        "id": 7898,
+        "last_Name": "Kertzmann",
+        "email": "sjm@gmail.com"
+    },
+    {
+        "id": 9665
+    },
+    {
+        "id": 4583,
+        "frst_name": "Georgianne",
+        "last_name": "Mayer",
+        "email": "sjm9999@gmail.com",
+        "mobile": "1-931-101-9273",
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 72,
+                "maths": 69,
+                "science": 63,
+                "social": 90,
+                "hindi": 78,
+                "ed": 84,
+                "kom": 54,
+                "te": 99
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "ragisankati",
+                "butter-milk"
+            ]
+        }
+    },
+    {
+        "id": 9740,
+        "fname": "Charla",
+        "lname": "Gorczany",
+        "email": "kondappa9999@gmail.com",
+        "phonenumber": "(926) 090-8164",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "subjects": [
+            "som",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 68,
+                "maths": 99,
+                "science": 81,
+                "social": 64,
+                "hindi": 36,
+                "ed": 64,
+                "kom": 75,
+                "te": 72
+            },
+            {
+                "telugu": 79,
+                "english": 61,
+                "maths": 82,
+                "science": 78,
+                "social": 84,
+                "hindi": 90,
+                "ed": 70,
+                "kom": 64,
+                "te": 56
+            }
+        ]
+    },
+    {
+        "Id": 18,
+        "frst_name": "fname",
+        "last_name": "lname",
+        "email": "abc12@gmail.com",
+        "Mobile": "phonenumber",
+        "marks": [
+            {
+                "telugu": 90,
+                "english": 60,
+                "maths": 99,
+                "scinence": 70,
+                "social": 94,
+                "hindi": 67
+            },
+            {
+                "E.D": 75,
+                "K.O.M": 90,
+                "TE1": 65
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "id": 9741
+    },
+    {
+        "Id": 9,
+        "frst_name": "fname",
+        "last_name": "lname",
+        "email": "abc12@gmail.com",
+        "Mobile": "phonenumber",
+        "marks": [
+            {
+                "telugu": 90,
+                "english": 60,
+                "maths": 99,
+                "scinence": 70,
+                "social": 94,
+                "hindi": 67
+            },
+            {
+                "E.D": 75,
+                "K.O.M": 90,
+                "TE1": 65
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "id": 9742
+    },
+    {
+        "Id": 81,
+        "frst_name": "fname",
+        "last_name": "lname",
+        "email": "abc12@gmail.com",
+        "Mobile": "phonenumber",
+        "marks": [
+            {
+                "telugu": 90,
+                "english": 60,
+                "maths": 99,
+                "scinence": 70,
+                "social": 94,
+                "hindi": 67
+            },
+            {
+                "E.D": 75,
+                "K.O.M": 90,
+                "TE1": 65
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "id": 9743
+    },
+    {
+        "Id": 819,
+        "frst_name": "fname",
+        "last_name": "lname",
+        "email": "abc12@gmail.com",
+        "Mobile": "phonenumber",
+        "marks": [
+            {
+                "telugu": 90,
+                "english": 60,
+                "maths": 99,
+                "scinence": 70,
+                "social": 94,
+                "hindi": 67
+            },
+            {
+                "E.D": 75,
+                "K.O.M": 90,
+                "TE1": 65
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "id": 9744
+    },
+    {
+        "Id": 819,
+        "frst_name": "Gail",
+        "last_name": "Johnson",
+        "email": "abc12@gmail.com",
+        "Mobile": "743-201-8600",
+        "marks": [
+            {
+                "telugu": 90,
+                "english": 60,
+                "maths": 99,
+                "scinence": 70,
+                "social": 94,
+                "hindi": 67
+            },
+            {
+                "E.D": 75,
+                "K.O.M": 90,
+                "TE1": 65
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "id": 9745
+    },
+    {
+        "Id": 819,
+        "frst_name": "Markus",
+        "last_name": "Kuhn",
+        "email": "abc12@gmail.com",
+        "Mobile": "1-876-893-9694",
+        "marks": [
+            {
+                "telugu": 90,
+                "english": 60,
+                "maths": 99,
+                "scinence": 70,
+                "social": 94,
+                "hindi": 67
+            },
+            {
+                "E.D": 75,
+                "K.O.M": 90,
+                "TE1": 65
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "id": 9746
+    },
+    {
+        "Id": 3020,
+        "frst_name": "Jodie",
+        "last_name": "Wyman",
+        "email": "abc12@gmail.com",
+        "Mobile": "(089) 819-8180",
+        "marks": [
+            {
+                "telugu": 90,
+                "english": 60,
+                "maths": 99,
+                "scinence": 70,
+                "social": 94,
+                "hindi": 67
+            },
+            {
+                "E.D": 75,
+                "K.O.M": 90,
+                "TE1": 65
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "id": 9747
+    },
+    {
+        "Id": 792,
+        "frst_name": "Tony",
+        "last_name": "Grimes",
+        "email": "qwerty234@gmail.com",
+        "Mobile": "252.488.4625",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            "{telugu=90, english=66, maths=99, scinence=88, social=94, hindi=61, E.D=71, K.O.M=90, T.E1=65}"
+        ],
+        "id": 9748
+    },
+    {
+        "empty": false,
+        "mapType": "java.util.HashMap",
+        "id": 9749
+    },
+    {
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "Heat&MassTransefer"
+        ],
+        "last_name": "Breitenberg",
+        "favfood": {
+            "lunch": "rice",
+            "breakfast": "idly",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "frst_name": "Gina",
+        "Id": 160,
+        "marks": [
+            {
+                "T.E1": 65,
+                "social": 94,
+                "maths": 99,
+                "english": 66,
+                "hindi": 61,
+                "scinence": 88,
+                "E.D": 71,
+                "telugu": 90,
+                "K.O.M": 90
+            }
+        ],
+        "Mobile": "681.770.7977",
+        "email": "qwerty234@gmail.com",
+        "id": 9750
+    },
+    {
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "Heat&MassTransefer"
+        ],
+        "last_name": "McClure",
+        "favfood": {
+            "lunch": "rice",
+            "breakfast": "idly",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "frst_name": "George",
+        "Id": 986,
+        "marks": [
+            {
+                "T.E1": 65,
+                "social": 94,
+                "maths": 99,
+                "english": 66,
+                "hindi": 61,
+                "scinence": 88,
+                "E.D": 71,
+                "telugu": 90,
+                "K.O.M": 90
+            }
+        ],
+        "Mobile": "622.412.5503",
+        "email": [
+            "qwerty234@gmail.com",
+            "sansatya9@gmail.com"
+        ],
+        "id": 9751
+    },
+    {
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "Heat&MassTransefer"
+        ],
+        "last_name": "O'Reilly",
+        "favfood": {
+            "lunch": "rice",
+            "breakfast": "idly",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "frst_name": "Lakendra",
+        "Id": 441,
+        "marks": [
+            {
+                "T.E1": 65,
+                "social": 94,
+                "maths": 99,
+                "english": 66,
+                "hindi": 61,
+                "scinence": 88,
+                "E.D": 71,
+                "telugu": 90,
+                "K.O.M": 90
+            }
+        ],
+        "Mobile": "(038) 956-5163",
+        "email": [
+            "qwerty234@gmail.com",
+            "sansatya9@gmail.com",
+            "sivasrinadh01@gmail.com"
+        ],
+        "id": 9752
+    },
+    {
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "Heat&MassTransefer"
+        ],
+        "last_name": "Kilback",
+        "favfood": {
+            "lunch": "rice",
+            "breakfast": "idly",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "frst_name": "Deeann",
+        "Id": 284,
+        "marks": [
+            {
+                "T.E1": 65,
+                "social": 94,
+                "maths": 99,
+                "english": 66,
+                "hindi": 61,
+                "scinence": 88,
+                "E.D": 71,
+                "telugu": 90,
+                "K.O.M": 90
+            }
+        ],
+        "Mobile": "(109) 019-2948",
+        "email": [
+            "qwerty234@gmail.com",
+            "sansatya9@gmail.com",
+            "sivasrinadh01@gmail.com"
+        ],
+        "id": 9753
+    },
+    {
+        "id": 1134,
+        "fname": "Jonelle",
+        "lname": "Willms",
+        "email": "kondappa9999@gmail.com",
+        "phonenumber": "861.484.3954",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "subjects": [
+            "som",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 68,
+                "maths": 99,
+                "science": 81,
+                "social": 64,
+                "hindi": 36,
+                "kom": 75,
+                "te": 72,
+                "ed": 64
+            },
+            {
+                "telugu": 79,
+                "english": 61,
+                "maths": 82,
+                "science": 78,
+                "social": 84,
+                "hindi": 90,
+                "kom": 64,
+                "te": 56,
+                "ed": 70
+            }
+        ]
+    },
+    {
+        "id": 4397,
+        "fname": "Jacob",
+        "lname": "Feeney",
+        "email": "kondappa9999@gmail.com",
+        "phonenumber": "243-134-0292",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "subjects": [
+            "som",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 68,
+                "maths": 99,
+                "science": 81,
+                "social": 64,
+                "hindi": 36,
+                "ed": 64,
+                "kom": 75,
+                "te": 72
+            },
+            {
+                "telugu": 79,
+                "english": 61,
+                "maths": 82,
+                "science": 78,
+                "social": 84,
+                "hindi": 90,
+                "ed": 70,
+                "kom": 64,
+                "te": 56
+            }
+        ]
+    },
+    {
+        "id": 5042,
+        "fname": "Adriane",
+        "lname": "Sawayn",
+        "email": "kondappa9999@gmail.com",
+        "phonenumber": "580.646.1077",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "subjects": [
+            "som",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 68,
+                "maths": 99,
+                "science": 81,
+                "social": 64,
+                "hindi": 36,
+                "ed": 64,
+                "kom": 75,
+                "te": 72
+            },
+            {
+                "telugu": 79,
+                "english": 61,
+                "maths": 82,
+                "science": 78,
+                "social": 84,
+                "hindi": 90,
+                "ed": 70,
+                "kom": 64,
+                "te": 56
+            }
+        ]
+    },
+    {
+        "id": 6049,
+        "frst_name": "Joel",
+        "last_name": "Zieme",
+        "email": "sjm9999@gmail.com",
+        "mobile": "(795) 226-4204",
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 72,
+                "maths": 69,
+                "science": 63,
+                "social": 90,
+                "hindi": 78,
+                "ed": 84,
+                "kom": 54,
+                "te": 99
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "ragisankati",
+                "butter-milk"
+            ]
+        }
+    },
+    {
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "Heat&MassTransefer"
+        ],
+        "last_name": "Kub",
+        "favfood": {
+            "lunch": "rice",
+            "breakfast": "idly",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "frst_name": "Chan",
+        "Id": 378,
+        "marks": [
+            {
+                "T.E1": 65,
+                "social": 94,
+                "maths": 99,
+                "english": 66,
+                "hindi": 61,
+                "scinence": 88,
+                "E.D": 71,
+                "telugu": 90,
+                "K.O.M": 90
+            }
+        ],
+        "Mobile": "760-390-3581",
+        "email": [
+            "qwerty234@gmail.com",
+            "sansatya9@gmail.com",
+            "sivasrinadh01@gmail.com"
+        ],
+        "id": 9754
+    },
+    {
+        "id": 7024,
+        "fname": "Ronald",
+        "lname": "Mueller",
+        "email": "kondappa9999@gmail.com",
+        "phonenumber": "(248) 217-7607",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "subjects": [
+            "som",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 68,
+                "maths": 99,
+                "science": 81,
+                "social": 64,
+                "hindi": 36,
+                "kom": 75,
+                "ed": 64,
+                "te": 72
+            },
+            {
+                "telugu": 79,
+                "english": 61,
+                "maths": 82,
+                "science": 78,
+                "social": 84,
+                "hindi": 90,
+                "kom": 64,
+                "ed": 70,
+                "te": 56
+            }
+        ]
+    },
+    {
+        "id": 6906,
+        "fname": "Pearlie",
+        "lname": "Goodwin",
+        "email": "kondappa9999@gmail.com",
+        "phonenumber": "188-646-8070",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "subjects": [
+            "som",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 68,
+                "maths": 99,
+                "science": 81,
+                "social": 64,
+                "hindi": 36,
+                "kom": 75,
+                "ed": 64,
+                "te": 72
+            },
+            {
+                "telugu": 79,
+                "english": 61,
+                "maths": 82,
+                "science": 78,
+                "social": 84,
+                "hindi": 90,
+                "kom": 64,
+                "ed": 70,
+                "te": 56
+            }
+        ]
+    },
+    {
+        "id": 1314,
+        "fname": "Merissa",
+        "lname": "Leannon",
+        "email": "kondappa9999@gmail.com",
+        "phonenumber": "(543) 548-9053",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "subjects": [
+            "som",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 68,
+                "maths": 99,
+                "science": 81,
+                "social": 64,
+                "hindi": 36,
+                "te": 72,
+                "ed": 64,
+                "kom": 75
+            },
+            {
+                "telugu": 79,
+                "english": 61,
+                "maths": 82,
+                "science": 78,
+                "social": 84,
+                "hindi": 90,
+                "te": 56,
+                "ed": 70,
+                "kom": 64
+            }
+        ]
+    },
+    {
+        "id": 5974,
+        "fname": "Cathey",
+        "lname": "Cremin",
+        "email": "kondappa9999@gmail.com",
+        "phonenumber": "220.983.2893",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "subjects": [
+            "som",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 68,
+                "maths": 99,
+                "science": 81,
+                "social": 64,
+                "hindi": 36,
+                "te": 72,
+                "ed": 64,
+                "kom": 75
+            },
+            {
+                "telugu": 79,
+                "english": 61,
+                "maths": 82,
+                "science": 78,
+                "social": 84,
+                "hindi": 90,
+                "te": 56,
+                "ed": 70,
+                "kom": 64
+            }
+        ]
+    },
+    {
+        "id": 2213,
+        "fname": "Laverna",
+        "lname": "Kuvalis",
+        "email": "kondappa9999@gmail.com",
+        "phonenumber": "1-910-107-5558",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "subjects": [
+            "som",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 68,
+                "maths": 99,
+                "science": 81,
+                "social": 64,
+                "hindi": 36,
+                "te": 72,
+                "kom": 75,
+                "ed": 64
+            },
+            {
+                "telugu": 79,
+                "english": 61,
+                "maths": 82,
+                "science": 78,
+                "social": 84,
+                "hindi": 90,
+                "te": 56,
+                "kom": 64,
+                "ed": 70
+            }
+        ]
+    },
+    {
+        "id": 5583,
+        "fname": "Brock",
+        "lname": "Schowalter",
+        "email": "kondappa9999@gmail.com",
+        "phonenumber": "1-743-146-5061",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "subjects": [
+            "som",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 68,
+                "maths": 99,
+                "science": 81,
+                "social": 64,
+                "hindi": 36,
+                "kom": 75,
+                "te": 72,
+                "ed": 64
+            },
+            {
+                "telugu": 79,
+                "english": 61,
+                "maths": 82,
+                "science": 78,
+                "social": 84,
+                "hindi": 90,
+                "kom": 64,
+                "te": 56,
+                "ed": 70
+            }
+        ]
+    },
+    {
+        "id": 4258,
+        "fname": "Elicia",
+        "lname": "Klein",
+        "email": "kondappa9999@gmail.com",
+        "phonenumber": "622-679-7422",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "subjects": [
+            "som",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 68,
+                "maths": 99,
+                "science": 81,
+                "social": 64,
+                "hindi": 36,
+                "te": 72,
+                "kom": 75,
+                "ed": 64
+            },
+            {
+                "telugu": 79,
+                "english": 61,
+                "maths": 82,
+                "science": 78,
+                "social": 84,
+                "hindi": 90,
+                "te": 56,
+                "kom": 64,
+                "ed": 70
+            }
+        ]
+    },
+    {
+        "id": 5131,
+        "fname": "Sterling",
+        "lname": "Mosciski",
+        "email": "kondappa9999@gmail.com",
+        "phonenumber": "1-854-114-1802",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "subjects": [
+            "som",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 68,
+                "maths": 99,
+                "science": 81,
+                "social": 64,
+                "hindi": 36,
+                "ed": 64,
+                "kom": 75,
+                "te": 72
+            },
+            {
+                "telugu": 79,
+                "english": 61,
+                "maths": 82,
+                "science": 78,
+                "social": 84,
+                "hindi": 90,
+                "ed": 70,
+                "kom": 64,
+                "te": 56
+            }
+        ]
+    },
+    {
+        "id": 1511,
+        "fname": "Dorethea",
+        "lname": "Buckridge",
+        "email": "kondappa9999@gmail.com",
+        "phonenumber": "1-782-133-4978",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "subjects": [
+            "som",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 68,
+                "maths": 99,
+                "science": 81,
+                "social": 64,
+                "hindi": 36,
+                "te": 72,
+                "ed": 64,
+                "kom": 75
+            },
+            {
+                "telugu": 79,
+                "english": 61,
+                "maths": 82,
+                "science": 78,
+                "social": 84,
+                "hindi": 90,
+                "te": 56,
+                "ed": 70,
+                "kom": 64
+            }
+        ]
+    },
+    {
+        "id": 1232,
+        "fname": "Ayako",
+        "lname": "Nitzsche",
+        "email": "kondappa9999@gmail.com",
+        "phonenumber": "1-308-657-8214",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "subjects": [
+            "som",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 68,
+                "maths": 99,
+                "science": 81,
+                "social": 64,
+                "hindi": 36,
+                "kom": 75,
+                "ed": 64,
+                "te": 72
+            },
+            {
+                "telugu": 79,
+                "english": 61,
+                "maths": 82,
+                "science": 78,
+                "social": 84,
+                "hindi": 90,
+                "kom": 64,
+                "ed": 70,
+                "te": 56
+            }
+        ]
+    },
+    {
+        "id": 8759,
+        "fname": "Bob",
+        "lname": "Gleason",
+        "email": "kondappa9999@gmail.com",
+        "phonenumber": "1-942-982-1582",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "subjects": [
+            "som",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 68,
+                "maths": 99,
+                "science": 81,
+                "social": 64,
+                "hindi": 36,
+                "ed": 64,
+                "te": 72,
+                "kom": 75
+            },
+            {
+                "telugu": 79,
+                "english": 61,
+                "maths": 82,
+                "science": 78,
+                "social": 84,
+                "hindi": 90,
+                "ed": 70,
+                "te": 56,
+                "kom": 64
+            }
+        ]
+    },
+    {
+        "id": 1335,
+        "fname": "Carlton",
+        "lname": "Johns",
+        "email": "kondappa9999@gmail.com",
+        "phonenumber": "1-042-126-0570",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "subjects": [
+            "som",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 68,
+                "maths": 99,
+                "science": 81,
+                "social": 64,
+                "hindi": 36,
+                "kom": 75,
+                "te": 72,
+                "ed": 64
+            },
+            {
+                "telugu": 79,
+                "english": 61,
+                "maths": 82,
+                "science": 78,
+                "social": 84,
+                "hindi": 90,
+                "kom": 64,
+                "te": 56,
+                "ed": 70
+            }
+        ]
+    },
+    {
+        "id": 1224,
+        "fname": "Toney",
+        "lname": "Fritsch",
+        "email": "kondappa9999@gmail.com",
+        "phonenumber": "(178) 155-2354",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "subjects": [
+            "som",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 68,
+                "maths": 99,
+                "science": 81,
+                "social": 64,
+                "hindi": 36,
+                "ed": 64,
+                "kom": 75,
+                "te": 72
+            },
+            {
+                "telugu": 79,
+                "english": 61,
+                "maths": 82,
+                "science": 78,
+                "social": 84,
+                "hindi": 90,
+                "ed": 70,
+                "kom": 64,
+                "te": 56
+            }
+        ]
+    },
+    {
+        "id": 3497,
+        "fname": "Becky",
+        "lname": "Stiedemann",
+        "email": "kondappa9999@gmail.com",
+        "phonenumber": "355-158-4464",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "subjects": [
+            "som",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 68,
+                "maths": 99,
+                "science": 81,
+                "social": 64,
+                "hindi": 36,
+                "kom": 75,
+                "ed": 64,
+                "te": 72
+            },
+            {
+                "telugu": 79,
+                "english": 61,
+                "maths": 82,
+                "science": 78,
+                "social": 84,
+                "hindi": 90,
+                "kom": 64,
+                "ed": 70,
+                "te": 56
+            }
+        ]
+    },
+    {
+        "id": 8023,
+        "fname": "Eric",
+        "lname": "Kassulke",
+        "email": "kondappa9999@gmail.com",
+        "phonenumber": "408.860.2458",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "subjects": [
+            "som",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 68,
+                "maths": 99,
+                "science": 81,
+                "social": 64,
+                "hindi": 36,
+                "ed": 64,
+                "te": 72,
+                "kom": 75
+            },
+            {
+                "telugu": 79,
+                "english": 61,
+                "maths": 82,
+                "science": 78,
+                "social": 84,
+                "hindi": 90,
+                "ed": 70,
+                "te": 56,
+                "kom": 64
+            }
+        ]
+    },
+    {
+        "id": 4247,
+        "fname": "Bennett",
+        "lname": "Jast",
+        "email": "kondappa9999@gmail.com",
+        "phonenumber": "(599) 154-0941",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "subjects": [
+            "som",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 68,
+                "maths": 99,
+                "science": 81,
+                "social": 64,
+                "hindi": 36,
+                "te": 72,
+                "ed": 64,
+                "kom": 75
+            },
+            {
+                "telugu": 79,
+                "english": 61,
+                "maths": 82,
+                "science": 78,
+                "social": 84,
+                "hindi": 90,
+                "te": 56,
+                "ed": 70,
+                "kom": 64
+            }
+        ]
+    },
+    {
+        "id": 1179,
+        "fname": "Kristeen",
+        "lname": "Waelchi",
+        "email": "kondappa9999@gmail.com",
+        "phonenumber": "(339) 779-5985",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "subjects": [
+            "som",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 68,
+                "maths": 99,
+                "science": 81,
+                "social": 64,
+                "hindi": 36,
+                "kom": 75,
+                "te": 72,
+                "ed": 64
+            },
+            {
+                "telugu": 79,
+                "english": 61,
+                "maths": 82,
+                "science": 78,
+                "social": 84,
+                "hindi": 90,
+                "kom": 64,
+                "te": 56,
+                "ed": 70
+            }
+        ]
+    },
+    {
+        "id": 4351,
+        "fname": "Ali",
+        "lname": "Okuneva",
+        "email": "kondappa9999@gmail.com",
+        "phonenumber": "(244) 874-2311",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "subjects": [
+            "som",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 68,
+                "maths": 99,
+                "science": 81,
+                "social": 64,
+                "hindi": 36,
+                "te": 72,
+                "ed": 64,
+                "kom": 75
+            },
+            {
+                "telugu": 79,
+                "english": 61,
+                "maths": 82,
+                "science": 78,
+                "social": 84,
+                "hindi": 90,
+                "te": 56,
+                "ed": 70,
+                "kom": 64
+            }
+        ]
+    },
+    {
+        "id": 193,
+        "frst_name": "Janel",
+        "last_name": "Pfannerstill",
+        "email": "jagan234@gmail.com",
+        "mobile": "(162) 779-6917",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        }
+    },
+    {
+        "id": 990,
+        "frst_name": "Tommie",
+        "last_name": "Skiles",
+        "email": "jagan234@gmail.com",
+        "mobile": "(435) 653-8996",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        }
+    },
+    {
+        "id": 727,
+        "frst_name": "Antonetta",
+        "last_name": "McLaughlin",
+        "email": "jagan234@gmail.com",
+        "mobile": "309.353.2144",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        }
+    },
+    {
+        "id": 194,
+        "frst_name": "Annett",
+        "last_name": "Schiller",
+        "email": "jagan234@gmail.com",
+        "mobile": "824.176.1717",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        }
+    },
+    {
+        "id": 689,
+        "frst_name": "Molly",
+        "last_name": "Gulgowski",
+        "email": "jagan234@gmail.com",
+        "mobile": "842-425-7729",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        }
+    },
+    {
+        "id": 639,
+        "frst_name": "Lizbeth",
+        "last_name": "Smitham",
+        "email": "jagan234@gmail.com",
+        "mobile": "(245) 284-4052",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        }
+    },
+    {
+        "id": 704,
+        "frst_name": "Tristan",
+        "last_name": "Johnson",
+        "email": "jagan234@gmail.com",
+        "mobile": "(522) 847-1894",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        }
+    },
+    {
+        "id": 361,
+        "frst_name": "Nick",
+        "last_name": "Hand",
+        "email": "jagan234@gmail.com",
+        "mobile": "1-426-982-5138",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        }
+    },
+    {
+        "id": 341,
+        "frst_name": "Wendi",
+        "last_name": "Wiegand",
+        "email": "jagan234@gmail.com",
+        "mobile": "735-332-7805",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        }
+    },
+    {
+        "id": 527,
+        "frst_name": "Murray",
+        "last_name": "Mueller",
+        "email": "jagan234@gmail.com",
+        "mobile": "(280) 252-9194",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        }
+    },
+    {
+        "id": 322,
+        "frst_name": "Emelina",
+        "last_name": "Turcotte",
+        "email": "jagan234@gmail.com",
+        "mobile": "(702) 993-7537",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        }
+    },
+    {
+        "id": 494,
+        "frst_name": "Tomas",
+        "last_name": "Kassulke",
+        "email": "jagan234@gmail.com",
+        "mobile": "1-465-161-7108",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        }
+    },
+    {
+        "id": 578,
+        "frst_name": "Marth",
+        "last_name": "Reichert",
+        "email": "jagan234@gmail.com",
+        "mobile": "(328) 911-1046",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        }
+    },
+    {
+        "id": 660,
+        "frst_name": "Ambrose",
+        "last_name": "White",
+        "email": "jagan234@gmail.com",
+        "mobile": "413-704-2295",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        }
+    },
+    {
+        "id": 401,
+        "frst_name": "Meggan",
+        "last_name": "Cremin",
+        "email": "jagan234@gmail.com",
+        "mobile": "921-834-8166",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        }
+    },
+    {
+        "id": 930,
+        "frst_name": "Sal",
+        "last_name": "Mills",
+        "email": "jagan234@gmail.com",
+        "mobile": "(710) 512-1385",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        }
+    },
+    {
+        "frst_name": "Drucilla",
+        "last_name": "Morissette",
+        "email": "jagan234@gmail.com",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        },
+        "id": 216,
+        "mobile": "754-943-4087"
+    },
+    {
+        "frst_name": "Frederic",
+        "last_name": "Brown",
+        "email": "jagan234@gmail.com",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        },
+        "id": 526,
+        "mobile": "550.084.6815"
+    },
+    {
+        "frst_name": "Antonette",
+        "last_name": "Williamson",
+        "email": "jagan234@gmail.com",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        },
+        "id": 754,
+        "mobile": "1-530-767-5532"
+    },
+    {
+        "frst_name": "Elmo",
+        "last_name": "Runolfsdottir",
+        "email": "jagan234@gmail.com",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        },
+        "id": 957,
+        "mobile": "1-363-917-2861"
+    },
+    {
+        "frst_name": "Kristy",
+        "last_name": "O'Hara",
+        "email": "jagan234@gmail.com",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        },
+        "id": 179,
+        "mobile": "(372) 134-9311"
+    },
+    {
+        "frst_name": "Milo",
+        "last_name": "Ward",
+        "email": "jagan234@gmail.com",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        },
+        "id": 120,
+        "mobile": "(386) 767-6790"
+    },
+    {
+        "frst_name": "Ethan",
+        "last_name": "Franecki",
+        "email": "jagan234@gmail.com",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        },
+        "id": 192,
+        "mobile": "579-320-8988"
+    },
+    {
+        "frst_name": "Jenny",
+        "last_name": "Hodkiewicz",
+        "email": "jagan234@gmail.com",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        },
+        "id": 969,
+        "mobile": "214-065-5656"
+    },
+    {
+        "frst_name": "Kenneth",
+        "last_name": "Weber",
+        "email": "jagan234@gmail.com",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        },
+        "id": 856,
+        "mobile": "338.099.5973"
+    },
+    {
+        "frst_name": "Lianne",
+        "last_name": "Collier",
+        "email": "jagan234@gmail.com",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        },
+        "id": 219,
+        "mobile": "(524) 469-8854"
+    },
+    {
+        "frst_name": "Van",
+        "last_name": "Cartwright",
+        "email": "jagan234@gmail.com",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer"
+            ]
+        },
+        "id": 102,
+        "mobile": "980.539.7532"
+    },
+    {
+        "id": 5497,
+        "frst_name": "Leanna",
+        "last_name": "Gorczany",
+        "email": "sjm9999@gmail.com",
+        "mobile": "723-987-3939",
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 72,
+                "maths": 69,
+                "science": 63,
+                "social": 90,
+                "hindi": 78,
+                "ed": 84,
+                "kom": 54,
+                "te": 99
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "ragisankati",
+                "butter-milk"
+            ]
+        }
+    },
+    {
+        "id": 702,
+        "frst_name": "Casimira",
+        "last_name": "Fay",
+        "email": "jagan234@gmail.com",
+        "mobile": "1-306-307-5073",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer",
+                "curdrice"
+            ]
+        }
+    },
+    {
+        "id": 8650,
+        "frst_name": "Kathey",
+        "last_name": "Metz",
+        "email": "sjm9999@gmail.com",
+        "mobile": "(315) 570-9394",
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 72,
+                "maths": 69,
+                "science": 63,
+                "social": 90,
+                "hindi": 78,
+                "ed": 84,
+                "kom": 54,
+                "te": 99
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "ragisankati",
+                "butter-milk"
+            ]
+        }
+    },
+    {
+        "id": 3214,
+        "frst_name": "Moira",
+        "last_name": "Yost",
+        "email": "sjm9999@gmail.com",
+        "mobile": "1-263-052-5943",
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 72,
+                "maths": 69,
+                "science": 63,
+                "social": 90,
+                "hindi": 78,
+                "ed": 84,
+                "kom": 54,
+                "te": 99
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "ragisankati",
+                "butter-milk"
+            ]
+        }
+    },
+    {
+        "id": 1394,
+        "frst_name": "Jagan",
+        "last_name": "Sreenadhu",
+        "email": "sivasrinadh01@gmail.com",
+        "mobile": "9392102345",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer",
+                "curdrice"
+            ]
+        }
+    },
+    {
+        "id": 1395,
+        "frst_name": "Jagan",
+        "last_name": "Sreenadhu",
+        "email": "sivasrinadh01@gmail.com",
+        "mobile": "9392102345",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer",
+                "curdrice"
+            ]
+        }
+    },
+    {
+        "email": "jagan234@gmail.com",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer",
+                "curdrice"
+            ]
+        },
+        "frst_name": "Rhea",
+        "id": 2761,
+        "last_name": "Dare",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "mobile": "963.919.7309",
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ]
+    },
+    {
+        "email": "jagan234@gmail.com",
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer",
+                "curdrice"
+            ]
+        },
+        "frst_name": "Jesus",
+        "id": 9873,
+        "last_name": "Dickens",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "mobile": "1-039-793-3018",
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ]
+    },
+    {
+        "id": 558,
+        "frst_name": "Oleta",
+        "last_name": "Bruen",
+        "email": "jagan234@gmail.com",
+        "mobile": "508.511.1700",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer",
+                "curdrice"
+            ]
+        }
+    },
+    {
+        "id": 4195,
+        "frst_name": "Anderson",
+        "last_name": "Gulgowski",
+        "email": "jagan234@gmail.com",
+        "mobile": "1-952-899-1228",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer",
+                "curdrice"
+            ]
+        }
+    },
+    {
+        "id": 8805,
+        "frst_name": "Dot",
+        "last_name": "DuBuque",
+        "email": "jagan234@gmail.com",
+        "mobile": "614-316-8583",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer",
+                "curdrice"
+            ]
+        }
+    },
+    {
+        "id": 4604,
+        "frst_name": "Letisha",
+        "last_name": "Hackett",
+        "email": "jagan234@gmail.com",
+        "mobile": "1-154-425-5654",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer",
+                "curdrice"
+            ]
+        }
+    },
+    {
+        "id": 2236,
+        "frst_name": "Consuelo",
+        "last_name": "Hackett",
+        "email": "jagan234@gmail.com",
+        "mobile": "(078) 144-2621",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer",
+                "curdrice"
+            ]
+        }
+    },
+    {
+        "id": 6390,
+        "frst_name": "Trish",
+        "last_name": "Jacobson",
+        "email": "jagan234@gmail.com",
+        "mobile": "747-992-4045",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer",
+                "curdrice"
+            ]
+        }
+    },
+    {
+        "id": 3855,
+        "frst_name": "Hanna",
+        "last_name": "Dibbert",
+        "email": "jagan234@gmail.com",
+        "mobile": "691.782.4373",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer",
+                "curdrice"
+            ]
+        }
+    },
+    {
+        "id": 1064,
+        "frst_name": "Luigi",
+        "last_name": "Hermiston",
+        "email": "jagan234@gmail.com",
+        "mobile": "1-374-958-1184",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer",
+                "curdrice"
+            ]
+        }
+    },
+    {
+        "id": 1268,
+        "frst_name": "Ashli",
+        "last_name": "Lindgren",
+        "email": "jagan234@gmail.com",
+        "mobile": "(222) 899-9553",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer",
+                "curdrice"
+            ]
+        }
+    },
+    {
+        "id": 1870,
+        "frst_name": "Major",
+        "last_name": "Cremin",
+        "email": "jagan234@gmail.com",
+        "mobile": "(652) 184-8674",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer",
+                "curdrice"
+            ]
+        }
+    },
+    {
+        "id": 4721,
+        "frst_name": "Joetta",
+        "last_name": "Stoltenberg",
+        "email": "jagan234@gmail.com",
+        "mobile": "(083) 447-7236",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer",
+                "curdrice"
+            ]
+        }
+    },
+    {
+        "id": 7603,
+        "frst_name": "Ervin",
+        "last_name": "Effertz",
+        "email": "jagan234@gmail.com",
+        "mobile": "835.602.0352",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer",
+                "curdrice"
+            ]
+        }
+    },
+    {
+        "id": 3999,
+        "frst_name": "Deanne",
+        "last_name": "Monahan",
+        "email": "jagan234@gmail.com",
+        "mobile": "1-457-864-7337",
+        "marks": [
+            {
+                "telugu": 96,
+                "english": 69,
+                "maths": 99,
+                "science": 89,
+                "social": 78,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 68
+            },
+            {
+                "telugu": 69,
+                "english": 62,
+                "maths": 89,
+                "science": 79,
+                "social": 68,
+                "hindi": 67,
+                "ed": 75,
+                "kom": 64,
+                "te": 86
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "Kaddukakheer",
+                "curdrice"
+            ]
+        }
+    },
+    {
+        "id": 3951,
+        "frst_name": "Latia",
+        "last_name": "Gutkowski",
+        "email": "sjm9999@gmail.com",
+        "mobile": "1-754-804-8099",
+        "marks": [
+            {
+                "telugu": 80,
+                "english": 72,
+                "maths": 69,
+                "science": 63,
+                "social": 90,
+                "hindi": 78,
+                "ed": 84,
+                "kom": 54,
+                "te": 99
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "ragisankati",
+                "butter-milk"
+            ]
+        }
+    },
+    {
+        "Id": 855,
+        "frst_name": "srinadhu",
+        "last_name": "kondappa",
+        "email": "abc12@gmail.com",
+        "Mobile": "6302521574",
+        "marks": [
+            {
+                "telugu": 90,
+                "english": 60,
+                "maths": 99,
+                "scinence": 70,
+                "social": 94,
+                "hindi": 67
+            },
+            {
+                "E.D": 75,
+                "K.O.M": 90,
+                "TE1": 65
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "id": 9874
+    },
+    {
+        "Id": 167,
+        "frst_name": "srinadhu",
+        "last_name": "kondappa",
+        "email": "abc12@gmail.com",
+        "Mobile": "6302521574",
+        "marks": [
+            {
+                "telugu": 90,
+                "english": 60,
+                "maths": 99,
+                "scinence": 70,
+                "social": 94,
+                "hindi": 67
+            },
+            {
+                "E.D": 75,
+                "K.O.M": 90,
+                "TE1": 65
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "id": 9875
+    },
+    {
+        "first_name": "bharth",
+        "email": "bharthno1@gmail.com",
+        "mobile": 91,
+        "id": 45
+    },
+    {
+        "first_name": "india",
+        "last_name": null,
+        "email": "indiano1@gmail.com",
+        "mobile": 91,
+        "id": 394
+    },
+    {
+        "fname": "san",
+        "lname": "satya",
+        "email": "sansatya234@gmail.com",
+        "id": 1995
+    },
+    {
+        "fname": "Raisa",
+        "lname": "Koss",
+        "email": "abcdf@gmail.com",
+        "id": 1076
+    },
+    {
+        "fname": "ailene",
+        "lname": "okuneva",
+        "email": "abcdf@gmail.com",
+        "id": 1038
+    },
+    {
+        "fname": "selene",
+        "lname": "kutch",
+        "email": "abcdf@gmail.com",
+        "id": 1541
+    },
+    {
+        "Id": "1052",
+        "frst_name": "valorie",
+        "last_name": "carroll",
+        "email": "abc12@gmail.com",
+        "Mobile": "phone1052",
+        "marks": [
+            {
+                "telugu": 90,
+                "english": 60,
+                "maths": 99,
+                "scinence": 70,
+                "social": 94,
+                "hindi": 67
+            },
+            {
+                "E.D": 75,
+                "K.O.M": 90,
+                "TE1": 65
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "id": 9876
+    },
+    {
+        "Id": "378",
+        "frst_name": "joesph",
+        "last_name": "gislason",
+        "email": "abc12@gmail.com",
+        "Mobile": "phone378",
+        "marks": [
+            {
+                "telugu": 90,
+                "english": 60,
+                "maths": 99,
+                "scinence": 70,
+                "social": 94,
+                "hindi": 67
+            },
+            {
+                "E.D": 75,
+                "K.O.M": 90,
+                "TE1": 65
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "id": 9877
+    },
+    {
+        "Id": "1021",
+        "frst_name": "rebbeca",
+        "last_name": "leannon",
+        "email": "abc12@gmail.com",
+        "Mobile": "phone1021",
+        "marks": [
+            {
+                "telugu": 90,
+                "english": 60,
+                "maths": 99,
+                "scinence": 70,
+                "social": 94,
+                "hindi": 67
+            },
+            {
+                "E.D": 75,
+                "K.O.M": 90,
+                "TE1": 65
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "id": 9878
+    },
+    {
+        "Id": "657",
+        "frst_name": "marcelino",
+        "last_name": "bergnaum",
+        "email": "abc12@gmail.com",
+        "Mobile": "phone657",
+        "marks": [
+            {
+                "telugu": 90,
+                "english": 60,
+                "maths": 99,
+                "scinence": 70,
+                "social": 94,
+                "hindi": 67
+            },
+            {
+                "E.D": 75,
+                "K.O.M": 90,
+                "TE1": 65
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "id": 9879
+    },
+    {
+        "Id": "457",
+        "frst_name": "laveta",
+        "last_name": "kris",
+        "email": "abc12@gmail.com",
+        "Mobile": "phone457",
+        "marks": [
+            {
+                "telugu": 90,
+                "english": 60,
+                "maths": 99,
+                "scinence": 70,
+                "social": 94,
+                "hindi": 67
+            },
+            {
+                "E.D": 75,
+                "K.O.M": 90,
+                "TE1": 65
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "id": 9880
+    },
+    {
+        "Id": "1330",
+        "frst_name": "hershel",
+        "last_name": "yundt",
+        "email": "abc12@gmail.com",
+        "Mobile": "phone1330",
+        "marks": [
+            {
+                "telugu": 90,
+                "english": 60,
+                "maths": 99,
+                "scinence": 70,
+                "social": 94,
+                "hindi": 67
+            },
+            {
+                "E.D": 75,
+                "K.O.M": 90,
+                "TE1": 65
+            }
+        ],
+        "subjects": [
+            "S.O.M",
+            "fluid mechanics",
+            "engineering mechanics"
+        ],
+        "favfood": {
+            "breakfast": "idly",
+            "lunch": "rice",
+            "dinner": [
+                "chapathi",
+                "milk"
+            ]
+        },
+        "id": 9881
+    }
+]); 
+  }
+  jsonTreeCreate4();
+ </script>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jan 5, 2024 12:31:37 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jan 5, 2024 12:31:42 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>4</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='20%'>
+<b>1</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='80%'><b>4</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='10%'><b>1</b> events passed</small></div>
+<div>
+<small data-tooltip='40%'><b>4</b> events failed,
+<b data-tooltip='%'>5</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"getEmployee1":3.095,"getEmployee1":0.098,"getEmployee1":0.082,"getEmployee1":0.067,"getEmployees":0.334
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 4,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 1,
+failEvents: 4,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 5
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

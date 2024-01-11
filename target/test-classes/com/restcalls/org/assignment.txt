@@ -1,0 +1,18 @@
+#postman assignment
+
+
+1.Make a get call to the localhost:3000
+2.get the size of the array
+3.store the size in some variable.
+4.Make a post call using pojo and builder(lombok or extenal builder)
+5.verify post call is sucess.
+6.schema validation.
+7.Make the get call again and check wheather the (size+1)
+8.Update call to update the firstname field.
+9.store the response in the external file.
+10.make the delete call and delete the entry you created.
+11.get the size and check(size).
+12.Move the code in base test to Listner -->ITestListner and IsuiteListner
+13.Try to log request values to the extent reports --> very tricky
+
+10446210113
